@@ -1,0 +1,15 @@
+/* #stl{
+    font-style: italic;
+    margin-left: 80px;
+    color: white;
+} */
+
+#img{
+     margin-left: 10px; 
+    /* margin-top: -1px; */
+}
+
+.nav-link{
+    margin-left: 100px;
+    margin-top: 15px;
+}

@@ -1,0 +1,27 @@
+<div class="employee-list-wrapper p-5">
+<h3 class="display-5 text-light text-center mb-5">List of Employees</h3>
+<table class="table table-striped table-bordered text-center">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Id</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr *ngFor="let employee of employees; index as i">
+            <td class="p-3">{{i+1}}</td>
+            <td>{{employee.firstName}}</td>
+            <td>{{employee.lastName}}</td>
+            <td>{{employee.emailId}}</td>
+            <td>
+                <i (click)="updateEmployee(employee.id)" class="fa-solid fa-pen-to-square px-2"></i>
+                |
+                <i (click) = "deleteEmployee(employee.id)" class = "fa fa-trash px-2"> </i>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

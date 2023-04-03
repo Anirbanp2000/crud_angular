@@ -1,0 +1,27 @@
+#a{
+    text-align: center;
+    color: black;
+}
+.employee-list-wrapper{
+    height: 100vh;
+    background-image: url("../../assets/images/bg-main.jpg");
+    background-size: cover;
+}
+.table{
+    background: white;
+}
+.list-employee-overlay{
+    width: 50%;
+    background-color: rgba(0,0,0,0.5); 
+}
+i:hover{
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: blue;
+}
+
+.fa-trash{
+    color: red;
+}
